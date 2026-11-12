@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101d35" />
+  <meta name="description" content="SearchPilot — AI Search Growth Platform interactive demo" />
+  <title>SearchPilot — AI Search Growth Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="brand-mark">✳</div><div><b>SearchPilot</b><small>AI Search Growth Platform</small></div></div>
+      <div class="workspace"><div class="workspace-icon">E</div><div class="workspace-copy"><b>Example Domain</b><small>example.com</small><small>Global · English</small></div><span class="chevron">⌄</span></div>
+      <nav id="navigation">
+        <div class="nav-label">OVERVIEW</div>
+        <button class="nav-item active" data-page="5"><span>▦</span> Overview</button>
+        <div class="nav-label">VISIBILITY</div>
+        <button class="nav-item" data-page="6"><span>◉</span> Visibility Explorer</button>
+        <button class="nav-item" data-page="7"><span>⌕</span> Question Intelligence</button>
+        <button class="nav-item" data-page="8"><span>⇄</span> Competitors</button>
+        <div class="nav-label">OPTIMIZATION</div>
+        <button class="nav-item" data-page="9"><span>✦</span> Opportunities</button>
+        <button class="nav-item" data-page="10"><span>▤</span> Content Studio</button>
+        <button class="nav-item" data-page="11"><span>↗</span> Publishing</button>
+        <div class="nav-label">ANALYTICS</div>
+        <button class="nav-item" data-page="12"><span>⌁</span> Traffic &amp; Leads</button>
+        <button class="nav-item" data-page="13"><span>▧</span> Reports</button>
+        <div class="nav-label">WORKSPACE</div>
+        <button class="nav-item" data-page="14"><span>⚙</span> Settings</button>
+        <button class="nav-item" data-page="15"><span>◇</span> Billing</button>
+      </nav>
+      <div class="sidebar-bottom"><div class="help-card"><div class="help-icon">?</div><div><b>Need a hand?</b><small>Explore the demo workspace</small></div></div><div class="user-row"><div class="avatar">A</div><div><b>Abhi</b><small>Workspace admin</small></div><span class="dots">···</span></div></div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar"><button class="mobile-menu" id="mobileMenu">☰</button><div class="crumb">Workspace <span>/</span> <b id="crumbTitle">Overview</b></div><div class="top-actions"><span class="demo-pill"><i></i> Demo data</span><button class="icon-btn" title="Notifications">♧</button><div class="avatar small">A</div></div></header>
+      <section class="content" id="content"></section>
+      <footer class="footer"><span>SearchPilot · <b id="pageFoot">Page 6 of 16</b></span><span>Interactive mockup <span class="footer-dot">●</span></span></footer>
+    </main>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
